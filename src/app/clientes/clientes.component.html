@@ -1,0 +1,8 @@
+<p>importado de root clientes</p>
+
+<input type="text" [(ngModel)]="cliente" placeholder="digite aqui...">
+  <button type="button" (click)="addCliente()">Adicionar</button>
+
+  <ul>
+    <li *ngFor="let item of clientes">{{item}}</li>
+  </ul>
